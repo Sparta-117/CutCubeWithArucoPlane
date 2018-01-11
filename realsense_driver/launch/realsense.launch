@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="tf" type="static_transform_publisher" name="camera_pub" args="0 0 0  0 0 0 1    /camera_link /camera_rgb_optical_frame 1000"/>
+	<node pkg="realsense_driver" type="realsense_driver" name="realsense_driver"/>
+	<node pkg="realsense_driver" type="data_service" name="data_service"/>
+	<node pkg="build_model" type="get_image_node" name="get_image_node"/>
+</launch>
+
+
+
