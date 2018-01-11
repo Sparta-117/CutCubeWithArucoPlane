@@ -3,6 +3,6 @@ This is a program to cut a cube in depth image by using 6 * 6 or 10 * 10 aruco p
 Use Realsense sr300 as its RGBD sensor.so it contains realsense driver and a corresponding ROS service node.
 
 --------------------------------------------
-Master Chief
-UNSC Defence Force ,Navy
+Master Chief\
+UNSC Defence Force,Navy\
 2018.1.11
