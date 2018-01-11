@@ -16,7 +16,7 @@ int main(int argc,char *argv[])
     Mat depth_image;
     Mat depth_tmp;
     //config file of camera
-    std::string config_filename = "/home/mzm/new_sr300_build_model/src/build_model/config/default2.yaml";
+    std::string config_filename = "/home/XXX/new_sr300_build_model/src/build_model/config/default2.yaml";
     buildmodel::Camera::Ptr camera1 (new buildmodel::Camera);
     camera1->_camera_config_filename = config_filename;
     pcl::visualization::PCLVisualizer viewer1 ("cube_points_cloud_from_camera");
