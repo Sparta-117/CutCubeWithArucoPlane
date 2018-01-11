@@ -4,5 +4,4 @@ Use Realsense sr300 as its RGBD sensor.so it contains realsense driver and a cor
 
 --------------------------------------------
 Master Chief\
-UNSC Defence Force,Navy\
 2018.1.11
